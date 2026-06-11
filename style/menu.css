@@ -1,0 +1,111 @@
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .container */
+.container{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* menu */
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.menu li{
+    padding: 10px;
+}
+.menu li a{
+    text-decoration: none;
+}
+.menu li a:hover{
+    background-color: chocolate;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+/* logo */
+.logo{
+    margin-right: auto;
+    padding: 10px;
+}
+.logo img{
+    width: 150px;
+    height: 50px;
+}
+.banner img{
+    width: 100%;
+    margin: 10%;
+}
+/* brand */
+.brand{
+    display: flex;
+}
+.brand .card{
+    background-color: aliceblue;
+    width: 13%;
+    height: 180px;
+    box-shadow: 0px 0px 8px 0px black;
+    margin: 10px;
+    border-radius: 10px;
+}
+.brand .card img{
+    width: 160px;
+    height: 120px;
+    border-radius: 10px;
+}
+.brand .card p{
+    text-align: center;
+}
+.brand .card:hover{
+    border: 2px solid blue;
+}
+/* laptop */
+.data{
+
+    display: flex;
+}
+.data .card{
+    background-color: white;
+    width: 20%;
+    height: 690px;
+    box-shadow: 0px 0px 8px 0px gray;
+    margin: 10px;
+    border-radius: 10px;
+}
+.data .card img{
+    width: 190px;
+    height: 180px;
+    border-radius: 10px;
+    margin: 60px;
+}
+.data .card h3{
+    text-align: center;
+    color: orange;
+}
+.data .card h2{
+text-align: center;
+color: red;
+}
+.data .card button{
+    text-align: center;
+    margin-left: 110px;
+    border-radius: 4px;
+}
+.data .card p{
+    margin: 20px;
+}
+.map h1{
+    text-align: center;
+}
+.footer{
+    background-color: green;
+    margin-top: 150px;
+    display: flex;
+    color: white;
+}
